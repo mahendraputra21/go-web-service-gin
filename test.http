@@ -1,0 +1,31 @@
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+    "id": "7",
+    "title": "New Titlexxx",
+    "artist": "Tsubasaxxx",
+    "price": 49.00
+}
+### Post
+
+GET http://localhost:8080/albums
+### Get All
+
+GET http://localhost:8080/albums/3
+### Get by Id
+
+DELETE http://localhost:8080/albums/7
+### Delete By ID
+
+PATCH http://localhost:8080/albums/7
+Content-Type: application/json
+
+{
+    "title": "Edited Title",
+    "artist": "Aoi Sora",
+    "price": 10.00
+}
+### Update By ID
+
+
